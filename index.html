@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Questions Game</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="game">
+        <p class="clock" id="timer"></p>
+        <div class="questions">
+          <p id="question" class="question"></p>
+          <input type="text" id="answer" placeholder="Enter your answer" />
+        </div>
+        <div class="buttonSection">
+          <button class="btn btn-confirm" id="nextButton">Next Question</button>
+          <button class="btn btn-restart" id="restartButton">
+            Restart Game
+          </button>
+        </div>
+        <div id="allAnswers" class="answers"></div>
+      </div>
+      <div class="startGame">
+        <h1 class="title">Want to play the game?</h1>
+        <button class="btn btn-start" id="btnStart">Start Game</button>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

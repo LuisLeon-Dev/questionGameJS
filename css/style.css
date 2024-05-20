@@ -1,0 +1,97 @@
+* {
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Reddit Sans", sans-serif;
+  background-color: #4666ff;
+}
+
+h1 {
+  color: #fff;
+  font-size: 50px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.clock {
+  color: #ffff;
+  font-size: 50px;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.question {
+  font-size: 34px;
+  color: #fff;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 5px rgba(30, 144, 255, 0.5);
+}
+
+.buttonSection {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 20px 50px;
+  color: #fff;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn-confirm {
+  background-color: #14de2c;
+}
+.btn-restart {
+  background-color: #de3b14;
+}
+.btn-start {
+  background-color: #ffa914;
+}
+
+.startGame {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.answers {
+  color: #fff;
+  margin-top: 20px;
+}
+
+.answers p {
+  margin-bottom: 10px;
+}
